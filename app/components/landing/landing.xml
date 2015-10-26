@@ -1,0 +1,7 @@
+<page cssClass="landing" loaded="loaded">
+  <stack-layout>
+    <text-field hint="username" text="{{ username }}"/>
+    <text-field secure="true" hint="password" text="{{ password }}"/>
+    <button text="register" tap="{{ signUp }}"/>
+  </stack-layout>
+</page>
